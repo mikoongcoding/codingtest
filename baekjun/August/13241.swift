@@ -13,7 +13,6 @@ func ottfouro() {
         let inputs = input.split(separator: " ").map{ Int(String($0))!}
         let (a, b) = (inputs[0], inputs[1])
         
-        // 1. 최대공약수 구하기
         var x = a
         var y = b
         while y != 0 {
